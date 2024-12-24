@@ -41,3 +41,4 @@ def rcvMsgs(queue, no_of_messages_to_receive):
         msgs.append( rcvMsg(queue) )
     
     return msgs
+
